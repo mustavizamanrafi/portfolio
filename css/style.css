@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 html,
 body {
     overflow-x: hidden;
@@ -11,6 +13,14 @@ body {
 body {
     font-family: 'Saira', sans-serif;
 }
+
+#particles-js {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            min-height: 100vh !important;
+            background-image: linear-gradient(to right, #171c30cf, #171c30cf, #171c30a1, #171c30a1), url("../images/2.jpg");
+        }
 
 header {
     position: relative;
